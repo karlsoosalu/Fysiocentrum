@@ -1,5 +1,5 @@
 # Veebilehe projekt
-
+http://kodu.ut.ee/~soosaluk/avaleht.html
 ## Mis on selle lehe eesmärk?
 Tegime veebilehe ettevõttele FysioCentrum OÜ, mis hetkel kasutab Wordpressi abil loodud kodulehte. Lehe eesmärk on tutvustada ettevõtte poolt pakutavaid teenuseid ja anda informatsiooni pakutavatest teenustest, treeningutest ja neid andvatest spetsialistidest. Lisaks on üleval info hindade ja kontakteerumise võimaluste kohta.
 Uus leht koosneb järgmistest osadest:
