@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	    <title>FysioCentrum</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!-- css file -->
+		<link rel="stylesheet" href="css/ühine.css">
+		<link rel="stylesheet" href="css/avaleht.css">
+		<!-- icon library -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<script src="javascript/avaleht.js"></script>
+	</head>
+
+	<body>
+		<header>
+			<!-- icons from fontawesome.com -->
+			<div class ="navbar">
+				<a href="meist.html#contacts"><i class="fa fa-map-marker"></i> Veeriku spordikeskus, Näituse 33 II korrus</a>
+			  	<a href="meist.html#contacts"><i class="fa fa-fw fa-phone"></i> 56645618</a>
+			  	<a href="meist.html#contacts"><i class="fa fa-fw fa-envelope"></i> info@fysiocentrum.com</a>
+			  	<a href="https://www.facebook.com/FysioCentrum/" target="_blank"><i class="fa fa-facebook-square" style="font-size:24px"></i></a>
+			  	<a href="https://www.instagram.com/fysio_centrum" target="_blank"><i class="fa fa-instagram" style="font-size:24px"></i></a>
+			</div>
+
+			<div class="logo">
+				<img src="pildid/logo.png" alt="FC logo">
+			</div>
+
+			<nav class="nav">
+				<ul>
+					<li class="active"><a href="avaleht.html"><i class="fa fa-fw fa-home"></i>Esileht</a></li>
+					<li><a href="teenused.html">Teenused</a></li>
+					<li><a href="treeningud.html">Treeningud</a></li>
+					<li><a href="meist.html">Meist</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<!-- Slideshow container -->
+		<div class="slideshow-container">
+			<div class="mySlides fade">
+			    <img src="pildid/fysio.jpg" alt="Füsioteraapia" style="width:100%">
+			    <div class="text">Füsioteraapia</div>
+			</div>
+			<div class="mySlides fade">
+				<img src="pildid/ring_treening.jpg" alt="Personaaltreeningud" style="width:100%">
+			    <div class="text">Personaaltreeningud</div>
+			</div>
+			<div class="mySlides fade">
+			    <img src="pildid/kangitreening.jpg" alt="Rühmatreeningud" style="width:100%">
+			    <div class="text">Rühmatreeningud</div>
+			</div>
+
+			<!-- Next and previous buttons -->
+			<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+			<a class="next" onclick="plusSlides(1)">&#10095;</a>
+		</div>
+		<br>
+
+		<!-- The dots/circles -->
+		<div style="text-align:center">
+		  <span class="dot" onclick="currentSlide(1)"></span>
+		  <span class="dot" onclick="currentSlide(2)"></span>
+		  <span class="dot" onclick="currentSlide(3)"></span>
+		</div>
+
+		<!--slideshow javascript-->
+		<script>
+			var slideIndex = 0;
+			showSlides();
+
+			function showSlides() {
+				var i;
+				var slides = document.getElementsByClassName("mySlides");
+				for (i = 0; i < slides.length; i++) {
+			    slides[i].style.display = "none";
+				}
+				slideIndex++;
+				if (slideIndex > slides.length) {slideIndex = 1}
+				slides[slideIndex-1].style.display = "block";
+				setTimeout(showSlides, 3000); // Change image every 2 seconds
+			}
+		</script>
+
+		<section>
+			<h1 class="headline">TEENUSED</h1>
+			<div class="row">
+				<div class="column">
+					<div class="card"><i class="fa fa-envira"></i>
+						<h3><a href="teenused.html">Massaaž</a></h3>
+						<br>
+						<p>loe lähemalt teenuste lehelt</p>
+						<br>
+					</div>
+				</div>
+				<div class="column">
+					<div class="card"><i class="fa fa-envira"></i>
+						<h3><a href="teenused.html">Spordimassaaž</a></h3>
+						<br>
+						<p>loe lähemalt teenuste lehelt</p>
+						<br>
+					</div>
+				</div>
+				<div class="column">
+					<div class="card"><i class="fa fa-envira"></i>
+						<h3><a href="teenused.html">Füsioteraapia</a></h3>
+						<br>
+						<p>loe lähemalt teenuste lehelt</p>
+						<br>
+					</div>
+				</div>
+				<div class="column">
+					<div class="card"><i class="fa fa-envira"></i>
+						<h3><a href="teenused.html">Spordifüsioteraapia</a></h3>
+						<br>
+						<p>loe lähemalt teenuste lehelt</p>
+						<br>
+					</div>
+				</div>
+				<div class="column">
+					<div class="card"><i class="fa fa-envira"></i>
+						<h3><a href="teenused.html">Teipimine</a></h3>
+						<br>
+						<p>loe lähemalt teenuste lehelt</p>
+						<br>
+					</div>
+				</div>
+				<div class="column">
+					<div class="card"><i class="fa fa-envira"></i>
+						<h3><a href="teenused.html">Nõelravi</a></h3>
+						<br>
+						<p>loe lähemalt teenuste lehelt</p>
+						<br>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<section>
+			<h1 class="headline">MEIE TEGEMISI</h1>
+			<div class="video">
+				<video width="320" height="240" autoplay="autoplay" controls="controls" muted>
+  					<source src="videod/kükk.mp4" type="video/mp4">
+  					<source src="movie.ogg" type="video/ogg">
+  					Sinu veebilehitsejaga ei ole videot võimalik vaadata. Proovi mõnda muud browserit.
+				</video>
+
+				<video width="320" height="240" autoplay="autoplay" controls="controls" muted>
+  					<source src="videod/füsioteraapia.mp4" type="video/mp4">
+  					<source src="movie.ogg" type="video/ogg">
+  					Sinu veebilehitsejaga ei ole videot võimalik vaadata. Proovi mõnda muud browserit.
+				</video>
+
+				<video width="320" height="240" autoplay="autoplay" controls="controls" muted>
+  					<source src="videod/Tammeka_taastav.mp4" type="video/mp4">
+  					<source src="movie.ogg" type="video/ogg">
+  					Sinu veebilehitsejaga ei ole videot võimalik vaadata. Proovi mõnda muud browserit.
+				</video>
+
+				<video width="320" height="240" autoplay="autoplay" controls="controls" muted>
+  					<source src="videod/testimine.mp4" type="video/mp4">
+  					<source src="movie.ogg" type="video/ogg">
+  					Sinu veebilehitsejaga ei ole videot võimalik vaadata. Proovi mõnda muud browserit.
+				</video>
+
+				<video width="320" height="240" autoplay="autoplay" controls="controls" muted>
+  					<source src="videod/kükk.mp4" type="video/mp4">
+  					<source src="movie.ogg" type="video/ogg">
+  					Sinu veebilehitsejaga ei ole videot võimalik vaadata. Proovi mõnda muud browserit.
+				</video>
+
+				<video width="320" height="240" autoplay="autoplay" controls="controls" muted>
+  					<source src="videod/testimine1.mp4" type="video/mp4">
+  					<source src="movie.ogg" type="video/ogg">
+  					Sinu veebilehitsejaga ei ole videot võimalik vaadata. Proovi mõnda muud browserit.
+				</video>
+			</div>
+		</section>
+
+		<section>
+			<h1 class="headline">TREENINGUD</h1>
+			<br>
+			<div class="row">
+				<div class="column">
+					<div class="card"><i class="fa fa-envira"></i>
+						<h3><a href="treeningud.html">Ringtreening</a></h3>
+						<br>
+						<p>E 17.45-18.30</p>
+						<br>
+					</div>
+				</div>
+				<div class="column">
+					<div class="card"><i class="fa fa-envira"></i>
+						<h3><a href="treeningud.html">Kangitreening</a></h3>
+						<br>
+						<p>T 18.30-19.30</p>
+						<br>
+					</div>
+				</div>
+				<div class="column">
+					<div class="card"><i class="fa fa-envira"></i>
+						<h3><a href="treeningud.html">Kerelihaste treening</a></h3>
+						<br>
+						<p>N 18.30-19.30</p>
+						<br>
+					</div>
+				</div>
+			</div>
+		</section>>
+
+		<section>
+			<h1 class="headline">VÕTA ÜHENDUST</h1>
+			<div class="container">
+  				<form id="feedback_form">
+    				<label for="fname">Nimi</label>
+    				<input type="text" id="fname" name="firstname" placeholder="Nimi..">
+    				<label for="lname">E-post</label>
+    				<input type="text" id="lname" name="lastname" placeholder="E-post..">
+    				<label for="subject">Sõnum</label>
+    				<textarea id="subject" name="subject" style="height:100px"></textarea>
+					<button type="button" id="sendbutton" onclick="datasend()">Saada</button>
+					<p id="demo"></p>
+				</form>
+			</div>
+		</section>
+
+	<footer>
+		<div>FysioCentrum, 2019
+		</div>
+	</footer>
+
+	</body>
+</html>

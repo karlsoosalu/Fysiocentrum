@@ -1,0 +1,103 @@
+.main{
+    overflow: auto;
+    margin-bottom: 30px;
+}
+
+.text{
+    float: left;
+    width: 50%;
+    margin-right: 20px;
+    padding-left: 8%;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+#picture{
+    float: left;
+    margin-bottom: 30px;
+    margin: 0 auto;
+    margin-left: 10%;
+    width: 20%;
+    height: auto;
+}
+
+#people{
+    overflow: auto;
+    display: table;
+    margin-left: 5%;
+    margin-bottom: 50px;
+}
+
+.person{
+    float: left;
+    width: 160px;
+}
+
+.name{
+    margin-bottom: 20px;
+}
+
+.pic{
+    width: 80px;
+    height: 80px;
+    margin-left: 20px;
+    border-radius: 25px;
+}
+
+.pic:hover{
+    position:relative;
+    top:-25px;
+    left:-35px;
+    width:200px;
+    height:auto;
+    display:block;
+    z-index:999;
+    border-radius: 0px;
+}
+
+#long_name{
+    width: 220px;
+    margin-right: 0px;
+}
+
+#contacts{
+    overflow: auto;
+}
+
+#map {
+    height: 280px;
+    width: 400px;
+    float: left;
+}
+
+.info{
+    float: left;
+    margin-left: 50px;
+}
+
+#upper_text{
+    margin-top: 20px;
+}
+
+#middle_text{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.bottom{
+    margin-top: 100px;
+}
+
+#fb{
+    padding-bottom: 10px;
+    padding-left: 10px;
+    width: 150px;
+    height: 50px;
+}
+
+#ig{
+    margin-left: 60px;
+    margin-top: 40px;
+    width: 70px;
+    height: 70px;
+}
